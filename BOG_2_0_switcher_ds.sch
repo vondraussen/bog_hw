@@ -1,0 +1,2041 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Graphic:Logo_Open_Hardware_Small U$3
+U 1 1 604CEBAA
+P 2475 9050
+AR Path="/604CEBAA" Ref="U$3"  Part="1" 
+AR Path="/603A6672/604CEBAA" Ref="U$?"  Part="1" 
+F 0 "U$3" H 2400 8725 59  0000 L BNN
+F 1 "STRAPO" H 2325 8800 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:STRAPO-2062" H 2475 9050 50  0001 C CNN
+F 3 "" H 2475 9050 50  0001 C CNN
+	1    2475 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND17
+U 1 1 0A5A0AC8
+P 1500 4175
+AR Path="/0A5A0AC8" Ref="#GND17"  Part="1" 
+AR Path="/603A60B1/0A5A0AC8" Ref="#GND017"  Part="1" 
+F 0 "#GND17" H 1500 4175 50  0001 C CNN
+F 1 "GND" H 1400 4075 59  0000 L BNN
+F 2 "" H 1500 4175 50  0001 C CNN
+F 3 "" H 1500 4175 50  0001 C CNN
+	1    1500 4175
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:PINHD-1X6 JP1
+U 1 1 485A0B1A
+P 2600 7150
+AR Path="/485A0B1A" Ref="JP1"  Part="1" 
+AR Path="/603A60B1/485A0B1A" Ref="JP1"  Part="1" 
+F 0 "JP1" H 2350 7575 59  0000 L BNN
+F 1 "ISP" H 2350 6750 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:1X06" H 2600 7150 50  0001 C CNN
+F 3 "" H 2600 7150 50  0001 C CNN
+	1    2600 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V2
+U 1 1 67DD302B
+P 2400 7650
+AR Path="/67DD302B" Ref="#V2"  Part="1" 
+AR Path="/603A60B1/67DD302B" Ref="#V02"  Part="1" 
+F 0 "#V2" H 2400 7650 50  0001 C CNN
+F 1 "+5V" H 2325 7775 59  0000 L BNN
+F 2 "" H 2400 7650 50  0001 C CNN
+F 3 "" H 2400 7650 50  0001 C CNN
+	1    2400 7650
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND16
+U 1 1 99D4D269
+P 2300 7950
+AR Path="/99D4D269" Ref="#GND16"  Part="1" 
+AR Path="/603A60B1/99D4D269" Ref="#GND016"  Part="1" 
+F 0 "#GND16" H 2300 7950 50  0001 C CNN
+F 1 "GND" H 2200 7850 59  0000 L BNN
+F 2 "" H 2300 7950 50  0001 C CNN
+F 3 "" H 2300 7950 50  0001 C CNN
+	1    2300 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805 C3
+U 1 1 0AE61553
+P 2500 4975
+AR Path="/0AE61553" Ref="C3"  Part="1" 
+AR Path="/603A60B1/0AE61553" Ref="C3"  Part="1" 
+F 0 "C3" H 2560 4990 59  0000 L BNN
+F 1 "100n" H 2560 4790 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805" H 2500 4975 50  0001 C CNN
+F 3 "" H 2500 4975 50  0001 C CNN
+	1    2500 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND7
+U 1 1 9CDE76EF
+P 2400 5775
+AR Path="/9CDE76EF" Ref="#GND7"  Part="1" 
+AR Path="/603A60B1/9CDE76EF" Ref="#GND07"  Part="1" 
+F 0 "#GND7" H 2400 5775 50  0001 C CNN
+F 1 "GND" H 2300 5675 59  0000 L BNN
+F 2 "" H 2400 5775 50  0001 C CNN
+F 3 "" H 2400 5775 50  0001 C CNN
+	1    2400 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:MEGA48_88_168-AU IC4
+U 1 1 46657C43
+P 3900 4375
+AR Path="/46657C43" Ref="IC4"  Part="1" 
+AR Path="/603A60B1/46657C43" Ref="IC4"  Part="1" 
+F 0 "IC4" H 2900 5675 59  0000 L TNN
+F 1 "MEGA48_88_168-AU" H 2900 2975 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:TQFP32-08" H 3900 4375 50  0001 C CNN
+F 3 "" H 3900 4375 50  0001 C CNN
+	1    3900 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V12
+U 1 1 B92CBE9F
+P 2600 2275
+AR Path="/B92CBE9F" Ref="#V12"  Part="1" 
+AR Path="/603A60B1/B92CBE9F" Ref="#V012"  Part="1" 
+F 0 "#V12" H 2600 2275 50  0001 C CNN
+F 1 "+5V" H 2525 2400 59  0000 L BNN
+F 2 "" H 2600 2275 50  0001 C CNN
+F 3 "" H 2600 2275 50  0001 C CNN
+	1    2600 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND2
+U 1 1 13A376EC
+P 1900 5875
+AR Path="/13A376EC" Ref="#GND2"  Part="1" 
+AR Path="/603A60B1/13A376EC" Ref="#GND02"  Part="1" 
+F 0 "#GND2" H 1900 5875 50  0001 C CNN
+F 1 "GND" H 1800 5775 59  0000 L BNN
+F 2 "" H 1900 5875 50  0001 C CNN
+F 3 "" H 1900 5875 50  0001 C CNN
+	1    1900 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:L-EUL3225M L3
+U 1 1 B4A4C549
+P 1900 5075
+AR Path="/B4A4C549" Ref="L3"  Part="1" 
+AR Path="/603A60B1/B4A4C549" Ref="L3"  Part="1" 
+F 0 "L3" V 1841 4925 59  0000 L BNN
+F 1 "10µ" V 1830 5125 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:L3225M" H 1900 5075 50  0001 C CNN
+F 3 "" H 1900 5075 50  0001 C CNN
+	1    1900 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R2
+U 1 1 81BCC900
+P 2600 2675
+AR Path="/81BCC900" Ref="R2"  Part="1" 
+AR Path="/603A60B1/81BCC900" Ref="R2"  Part="1" 
+F 0 "R2" H 2450 2734 59  0000 L BNN
+F 1 "10k" H 2450 2545 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 2600 2675 50  0001 C CNN
+F 3 "" H 2600 2675 50  0001 C CNN
+	1    2600 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC1206K C13
+U 1 1 FD8A4652
+P 2300 2975
+AR Path="/FD8A4652" Ref="C13"  Part="1" 
+AR Path="/603A60B1/FD8A4652" Ref="C13"  Part="1" 
+F 0 "C13" H 2360 2990 59  0000 L BNN
+F 1 "47n" H 2360 2790 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C1206K" H 2300 2975 50  0001 C CNN
+F 3 "" H 2300 2975 50  0001 C CNN
+	1    2300 2975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC1206 C1
+U 1 1 218CB388
+P 1900 5475
+AR Path="/218CB388" Ref="C1"  Part="1" 
+AR Path="/603A60B1/218CB388" Ref="C1"  Part="1" 
+F 0 "C1" H 1960 5490 59  0000 L BNN
+F 1 "100n" H 1960 5290 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C1206" H 1900 5475 50  0001 C CNN
+F 3 "" H 1900 5475 50  0001 C CNN
+	1    1900 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805 C2
+U 1 1 69098DAB
+P 2300 4975
+AR Path="/69098DAB" Ref="C2"  Part="1" 
+AR Path="/603A60B1/69098DAB" Ref="C2"  Part="1" 
+F 0 "C2" H 2360 4990 59  0000 L BNN
+F 1 "100n" H 2360 4790 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805" H 2300 4975 50  0001 C CNN
+F 3 "" H 2300 4975 50  0001 C CNN
+	1    2300 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805K C11
+U 1 1 8C126048
+P 2000 3975
+AR Path="/8C126048" Ref="C11"  Part="1" 
+AR Path="/603A60B1/8C126048" Ref="C11"  Part="1" 
+F 0 "C11" H 2060 3990 59  0000 L BNN
+F 1 "22p" H 2060 3790 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805K" H 2000 3975 50  0001 C CNN
+F 3 "" H 2000 3975 50  0001 C CNN
+	1    2000 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805K C12
+U 1 1 8751C915
+P 2000 4175
+AR Path="/8751C915" Ref="C12"  Part="1" 
+AR Path="/603A60B1/8751C915" Ref="C12"  Part="1" 
+F 0 "C12" H 2060 4190 59  0000 L BNN
+F 1 "22p" H 2060 3990 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805K" H 2000 4175 50  0001 C CNN
+F 3 "" H 2000 4175 50  0001 C CNN
+	1    2000 4175
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V6
+U 1 1 ABD58D5E
+P 1900 4675
+AR Path="/ABD58D5E" Ref="#V6"  Part="1" 
+AR Path="/603A60B1/ABD58D5E" Ref="#V06"  Part="1" 
+F 0 "#V6" H 1900 4675 50  0001 C CNN
+F 1 "+5V" H 1825 4800 59  0000 L BNN
+F 2 "" H 1900 4675 50  0001 C CNN
+F 3 "" H 1900 4675 50  0001 C CNN
+	1    1900 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V5
+U 1 1 3C7D9AFB
+P 2500 3575
+AR Path="/3C7D9AFB" Ref="#V5"  Part="1" 
+AR Path="/603A60B1/3C7D9AFB" Ref="#V05"  Part="1" 
+F 0 "#V5" H 2500 3575 50  0001 C CNN
+F 1 "+5V" H 2425 3700 59  0000 L BNN
+F 2 "" H 2500 3575 50  0001 C CNN
+F 3 "" H 2500 3575 50  0001 C CNN
+	1    2500 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND4
+U 1 1 D896219B
+P 2100 3175
+AR Path="/D896219B" Ref="#GND4"  Part="1" 
+AR Path="/603A60B1/D896219B" Ref="#GND04"  Part="1" 
+F 0 "#GND4" H 2100 3175 50  0001 C CNN
+F 1 "GND" H 2000 3075 59  0000 L BNN
+F 2 "" H 2100 3175 50  0001 C CNN
+F 3 "" H 2100 3175 50  0001 C CNN
+	1    2100 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:CRYTALHC49U-V Q1
+U 1 1 D63CFD17
+P 2300 4075
+AR Path="/D63CFD17" Ref="Q1"  Part="1" 
+AR Path="/603A60B1/D63CFD17" Ref="Q1"  Part="1" 
+F 0 "Q1" V 2240 3975 59  0000 R TNN
+F 1 "14,7MHz" V 2400 4275 59  0000 R TNN
+F 2 "BOG_2_0_switcher_ds:HC49U-V" H 2300 4075 50  0001 C CNN
+F 3 "" H 2300 4075 50  0001 C CNN
+	1    2300 4075
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5600 3775 2    50   BiDi ~ 0
+ADC5
+Wire Wire Line
+	5100 3775 5600 3775
+Text GLabel 5600 3675 2    50   BiDi ~ 0
+ADC4
+Wire Wire Line
+	5100 3675 5600 3675
+Text GLabel 5600 4375 2    50   BiDi ~ 0
+INT0
+Wire Wire Line
+	5100 4375 5600 4375
+Text GLabel 5600 4675 2    50   BiDi ~ 0
+LIGHT
+Wire Wire Line
+	5100 4675 5600 4675
+Wire Wire Line
+	1900 5375 2100 5375
+Connection ~ 1900 5375
+Wire Wire Line
+	1900 5275 1900 5375
+Wire Wire Line
+	2100 5375 2100 4675
+Wire Wire Line
+	2100 4675 2700 4675
+Wire Wire Line
+	2300 4775 2300 4875
+Wire Wire Line
+	2700 4775 2300 4775
+Text GLabel 5600 4475 2    50   BiDi ~ 0
+SPEED
+Wire Wire Line
+	5600 4475 5100 4475
+Text GLabel 5600 5075 2    50   BiDi ~ 0
+RPM
+Wire Wire Line
+	5100 5075 5600 5075
+Text GLabel 5600 4275 2    50   BiDi ~ 0
+TXD
+Wire Wire Line
+	5100 4275 5600 4275
+Text GLabel 5600 4175 2    50   BiDi ~ 0
+RXD
+Wire Wire Line
+	5100 4175 5600 4175
+Text GLabel 5600 3275 2    50   BiDi ~ 0
+EXTENTION_IN_ADC
+Wire Wire Line
+	5100 3275 5600 3275
+Text GLabel 5600 3375 2    50   BiDi ~ 0
+WATERTEMP_ADC
+Wire Wire Line
+	5100 3375 5600 3375
+Text GLabel 5600 3475 2    50   BiDi ~ 0
+OILPRESSURE_ADC
+Wire Wire Line
+	5100 3475 5600 3475
+Text GLabel 5600 3575 2    50   BiDi ~ 0
+OILTEMP_ADC
+Wire Wire Line
+	5100 3575 5600 3575
+Text GLabel 5600 3875 2    50   BiDi ~ 0
+BOOST
+Wire Wire Line
+	5600 3875 5100 3875
+Text GLabel 5600 3975 2    50   BiDi ~ 0
+BORDSPANNUNG
+Wire Wire Line
+	5100 3975 5600 3975
+Text GLabel 5600 4775 2    50   BiDi ~ 0
+RS
+Wire Wire Line
+	5100 4775 5600 4775
+Text GLabel 5600 5275 2    50   BiDi ~ 0
+MAXENABLE
+Wire Wire Line
+	5100 5275 5600 5275
+Text GLabel 2600 7550 3    56   BiDi ~ 0
+MISO
+Wire Wire Line
+	2600 7250 2600 7550
+Text GLabel 5600 5475 2    50   BiDi ~ 0
+MISO
+Wire Wire Line
+	5100 5475 5600 5475
+Wire Wire Line
+	2600 3875 2600 3975
+Wire Wire Line
+	2700 3875 2600 3875
+Wire Wire Line
+	2300 3975 2600 3975
+Connection ~ 2300 3975
+Wire Wire Line
+	2100 3975 2300 3975
+Text GLabel 5600 4875 2    50   BiDi ~ 0
+LED
+Wire Wire Line
+	5100 4875 5600 4875
+Text GLabel 5600 5175 2    50   BiDi ~ 0
+LCD_LIGHT
+Wire Wire Line
+	5100 5175 5600 5175
+Text GLabel 5600 4575 2    50   BiDi ~ 0
+BUTTON
+Wire Wire Line
+	5100 4575 5600 4575
+Text GLabel 2700 7550 3    56   BiDi ~ 0
+MOSI
+Wire Wire Line
+	2700 7250 2700 7550
+Text GLabel 5600 5375 2    50   BiDi ~ 0
+MOSI
+Wire Wire Line
+	5100 5375 5600 5375
+Text GLabel 2800 7550 3    56   BiDi ~ 0
+SPICLOCK
+Wire Wire Line
+	2800 7250 2800 7550
+Text GLabel 5600 5575 2    50   BiDi ~ 0
+SPICLOCK
+Wire Wire Line
+	5100 5575 5600 5575
+Text Label 2500 7550 3    56   ~ 0
+RESET
+Wire Wire Line
+	2500 7250 2500 7550
+Text Label 2600 2975 0    56   ~ 0
+RESET
+Wire Wire Line
+	2700 3275 2600 3275
+Wire Wire Line
+	2600 2975 2600 2875
+Wire Wire Line
+	2500 2975 2600 2975
+Connection ~ 2600 2975
+Wire Wire Line
+	2600 3275 2600 2975
+Wire Wire Line
+	2600 4075 2600 4175
+Wire Wire Line
+	2700 4075 2600 4075
+Wire Wire Line
+	2300 4175 2600 4175
+Connection ~ 2300 4175
+Wire Wire Line
+	2300 4175 2100 4175
+Text GLabel 2400 7250 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	2400 7250 2400 7550
+Text GLabel 2700 4475 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	2500 4875 2500 4375
+Wire Wire Line
+	2500 3675 2500 4375
+Connection ~ 2500 4375
+Wire Wire Line
+	2500 4375 2600 4375
+Wire Wire Line
+	2600 4375 2600 4475
+Connection ~ 2600 4375
+Wire Wire Line
+	2700 4375 2600 4375
+Wire Wire Line
+	2700 4475 2600 4475
+Text GLabel 1900 4875 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	1900 4875 1900 4775
+Text GLabel 2600 2375 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	2600 2375 2600 2475
+Text GLabel 1800 4275 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1600 4175 1600 4275
+Connection ~ 1600 4175
+Wire Wire Line
+	1600 3975 1600 4175
+Wire Wire Line
+	1600 3975 1800 3975
+Wire Wire Line
+	1600 4275 1800 4275
+Wire Wire Line
+	1800 4275 1800 4175
+Wire Wire Line
+	2300 7850 2300 7250
+Text GLabel 1900 5675 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	1900 5675 1900 5775
+Text GLabel 2700 5475 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2500 5175 2500 5275
+Wire Wire Line
+	2300 5275 2400 5275
+Wire Wire Line
+	2300 5175 2300 5275
+Connection ~ 2400 5275
+Wire Wire Line
+	2500 5275 2400 5275
+Connection ~ 2500 5275
+Wire Wire Line
+	2700 5275 2500 5275
+Wire Wire Line
+	2700 5575 2400 5575
+Connection ~ 2400 5575
+Wire Wire Line
+	2400 5575 2400 5675
+Wire Wire Line
+	2400 5275 2400 5475
+Wire Wire Line
+	2400 5475 2400 5575
+Connection ~ 2400 5475
+Wire Wire Line
+	2700 5475 2400 5475
+Text GLabel 2200 2975 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2100 2975 2100 3075
+Wire Wire Line
+	2200 2975 2100 2975
+Wire Wire Line
+	10825 2500 10825 2850
+Wire Wire Line
+	13425 2400 13525 2400
+Wire Wire Line
+	13525 2400 13525 2850
+Wire Wire Line
+	14825 2400 14825 2850
+Wire Wire Line
+	13825 2600 13825 2850
+Wire Wire Line
+	14125 2400 14125 2850
+Wire Wire Line
+	8800 3050 8800 2950
+Text GLabel 8800 3050 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9725 2700 9725 2400
+Text GLabel 9725 2700 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	15325 1625 15325 2000
+Wire Wire Line
+	15325 2000 15325 2100
+Wire Wire Line
+	15325 2000 14825 2000
+Wire Wire Line
+	14825 2000 14825 2100
+Wire Wire Line
+	14725 2000 14825 2000
+Connection ~ 15325 2000
+Connection ~ 14825 2000
+Wire Wire Line
+	8800 2550 8800 2450
+Wire Wire Line
+	8800 2450 8800 2350
+Wire Wire Line
+	8800 2450 8400 2450
+Connection ~ 8800 2450
+Text GLabel 8400 2450 0    50   BiDi ~ 0
+BORDSPANNUNG
+Wire Wire Line
+	10825 2200 11225 2200
+Wire Wire Line
+	10825 2300 10825 2200
+Wire Wire Line
+	10725 2200 10825 2200
+Connection ~ 10825 2200
+Wire Wire Line
+	11425 2200 11925 2200
+Wire Wire Line
+	11925 2300 11925 2200
+Wire Wire Line
+	11925 2200 11925 2000
+Wire Wire Line
+	11925 2000 11925 1600
+Wire Wire Line
+	11925 2200 12525 2200
+Wire Wire Line
+	12025 2000 11925 2000
+Connection ~ 11925 2200
+Connection ~ 11925 2000
+Text Label 11425 2200 0    10   ~ 0
++12V
+Wire Wire Line
+	8800 1950 8800 1850
+Text Label 8800 1950 0    10   ~ 0
++12V
+Wire Wire Line
+	10225 2200 10325 2200
+Wire Wire Line
+	9725 2200 9825 2200
+Wire Wire Line
+	9725 2300 9725 2200
+Text GLabel 9725 2200 1    70   BiDi ~ 0
+KLEMME30
+Wire Wire Line
+	13425 1800 13525 1800
+Wire Wire Line
+	13525 1800 13525 1500
+Wire Wire Line
+	13525 1500 12425 1500
+Wire Wire Line
+	12425 1500 12425 1800
+Wire Wire Line
+	12425 1800 12425 2000
+Wire Wire Line
+	12425 2000 12525 2000
+Wire Wire Line
+	12525 1800 12425 1800
+Connection ~ 12425 1800
+Connection ~ 12425 2000
+Wire Wire Line
+	15325 2500 15325 2600
+Wire Wire Line
+	15325 2600 15325 2700
+Wire Wire Line
+	15325 2600 15125 2600
+Wire Wire Line
+	15125 2600 15125 2800
+Wire Wire Line
+	15125 2800 12425 2800
+Wire Wire Line
+	12425 2800 12425 2400
+Wire Wire Line
+	12425 2400 12525 2400
+Connection ~ 15325 2600
+Wire Wire Line
+	14125 2200 14125 2000
+Wire Wire Line
+	14125 2000 13425 2000
+Wire Wire Line
+	14125 2000 14325 2000
+Connection ~ 14125 2000
+Wire Wire Line
+	13425 2200 13825 2200
+Wire Wire Line
+	13825 2200 13825 2300
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+12V #V9
+U 1 1 F7A11F25
+P 11925 1500
+AR Path="/F7A11F25" Ref="#V9"  Part="1" 
+AR Path="/603A61FC/F7A11F25" Ref="#V09"  Part="1" 
+F 0 "#V9" H 11925 1500 50  0001 C CNN
+F 1 "+12V" H 11825 1625 59  0000 L BNN
+F 2 "" H 11925 1500 50  0001 C CNN
+F 3 "" H 11925 1500 50  0001 C CNN
+	1    11925 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V10
+U 1 1 3A213E5D
+P 15325 1525
+AR Path="/3A213E5D" Ref="#V10"  Part="1" 
+AR Path="/603A61FC/3A213E5D" Ref="#V010"  Part="1" 
+F 0 "#V10" H 15325 1525 50  0001 C CNN
+F 1 "+5V" H 15250 1650 59  0000 L BNN
+F 2 "" H 15325 1525 50  0001 C CNN
+F 3 "" H 15325 1525 50  0001 C CNN
+	1    15325 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:TE5 F2
+U 1 1 EA67C44E
+P 10025 2200
+AR Path="/EA67C44E" Ref="F2"  Part="1" 
+AR Path="/603A61FC/EA67C44E" Ref="F2"  Part="1" 
+F 0 "F2" H 9875 2255 59  0000 L BNN
+F 1 "PFRA110" H 9875 2085 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:TE5" H 10025 2200 50  0001 C CNN
+F 3 "" H 10025 2200 50  0001 C CNN
+	1    10025 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:DIODE-SMB D2
+U 1 1 9183738B
+P 11325 2200
+AR Path="/9183738B" Ref="D2"  Part="1" 
+AR Path="/603A61FC/9183738B" Ref="D2"  Part="1" 
+F 0 "D2" H 11425 2219 59  0000 L BNN
+F 1 "B 240 F" H 11425 2109 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:SMB" H 11325 2200 50  0001 C CNN
+F 3 "" H 11325 2200 50  0001 C CNN
+	1    11325 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:DIODE-SMB D1
+U 1 1 2F6EB6EE
+P 10825 2400
+AR Path="/2F6EB6EE" Ref="D1"  Part="1" 
+AR Path="/603A61FC/2F6EB6EE" Ref="D1"  Part="1" 
+F 0 "D1" V 10744 2600 59  0000 R TNN
+F 1 "P6SMB18A" H 10225 2509 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:SMB" H 10825 2400 50  0001 C CNN
+F 3 "" H 10825 2400 50  0001 C CNN
+	1    10825 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:22-23-2021 X2
+U 1 1 DDF2E3E2
+P 9625 2300
+AR Path="/DDF2E3E2" Ref="X2"  Part="1" 
+AR Path="/603A61FC/DDF2E3E2" Ref="X2"  Part="1" 
+F 0 "X2" H 9725 2270 51  0000 L BNN
+F 1 "22-23-2021" H 9595 2355 59  0001 L BNN
+F 2 "BOG_2_0_switcher_ds:22-23-2021" H 9625 2300 50  0001 C CNN
+F 3 "" H 9625 2300 50  0001 C CNN
+	1    9625 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:22-23-2021 X2
+U 2 1 DDF2E3EE
+P 9625 2400
+AR Path="/DDF2E3EE" Ref="X2"  Part="2" 
+AR Path="/603A61FC/DDF2E3EE" Ref="X2"  Part="2" 
+F 0 "X2" H 9725 2370 51  0000 L BNN
+F 1 "22-23-2021" H 9595 2455 59  0001 L BNN
+F 2 "BOG_2_0_switcher_ds:22-23-2021" H 9625 2400 50  0001 C CNN
+F 3 "" H 9625 2400 50  0001 C CNN
+	2    9625 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND1
+U 1 1 DB8695AC
+P 9725 2800
+AR Path="/DB8695AC" Ref="#GND1"  Part="1" 
+AR Path="/603A61FC/DB8695AC" Ref="#GND01"  Part="1" 
+F 0 "#GND1" H 9725 2800 50  0001 C CNN
+F 1 "GND" H 9625 2700 59  0000 L BNN
+F 2 "" H 9725 2800 50  0001 C CNN
+F 3 "" H 9725 2800 50  0001 C CNN
+	1    9725 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND13
+U 1 1 9E3D6951
+P 8800 3150
+AR Path="/9E3D6951" Ref="#GND13"  Part="1" 
+AR Path="/603A61FC/9E3D6951" Ref="#GND013"  Part="1" 
+F 0 "#GND13" H 8800 3150 50  0001 C CNN
+F 1 "GND" H 8700 3050 59  0000 L BNN
+F 2 "" H 8800 3150 50  0001 C CNN
+F 3 "" H 8800 3150 50  0001 C CNN
+	1    8800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+12V #V11
+U 1 1 63D2F0C2
+P 8800 1750
+AR Path="/63D2F0C2" Ref="#V11"  Part="1" 
+AR Path="/603A61FC/63D2F0C2" Ref="#V011"  Part="1" 
+F 0 "#V11" H 8800 1750 50  0001 C CNN
+F 1 "+12V" H 8700 1875 59  0000 L BNN
+F 2 "" H 8800 1750 50  0001 C CNN
+F 3 "" H 8800 1750 50  0001 C CNN
+	1    8800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R14
+U 1 1 14576384
+P 8800 2150
+AR Path="/14576384" Ref="R14"  Part="1" 
+AR Path="/603A61FC/14576384" Ref="R14"  Part="1" 
+F 0 "R14" H 8650 2209 59  0000 L BNN
+F 1 "22k" H 8650 2020 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8800 2150 50  0001 C CNN
+F 3 "" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R15
+U 1 1 FA727DEF
+P 8800 2750
+AR Path="/FA727DEF" Ref="R15"  Part="1" 
+AR Path="/603A61FC/FA727DEF" Ref="R15"  Part="1" 
+F 0 "R15" H 8650 2809 59  0000 L BNN
+F 1 "3,3k" H 8650 2620 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8800 2750 50  0001 C CNN
+F 3 "" H 8800 2750 50  0001 C CNN
+	1    8800 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:DIODE-DO07 D3
+U 1 1 61582FEA
+P 14125 2300
+AR Path="/61582FEA" Ref="D3"  Part="1" 
+AR Path="/603A61FC/61582FEA" Ref="D3"  Part="1" 
+F 0 "D3" V 14296 2160 59  0000 L BNN
+F 1 "1N5819" H 13845 2159 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:DO07" H 14125 2300 50  0001 C CNN
+F 3 "" H 14125 2300 50  0001 C CNN
+	1    14125 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R1206 R9
+U 1 1 0834AB75
+P 15325 2300
+AR Path="/0834AB75" Ref="R9"  Part="1" 
+AR Path="/603A61FC/0834AB75" Ref="R9"  Part="1" 
+F 0 "R9" H 15175 2359 59  0000 L BNN
+F 1 "3k" H 15175 2170 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R1206" H 15325 2300 50  0001 C CNN
+F 3 "" H 15325 2300 50  0001 C CNN
+	1    15325 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R1206 R17
+U 1 1 29F8CE43
+P 15325 2900
+AR Path="/29F8CE43" Ref="R17"  Part="1" 
+AR Path="/603A61FC/29F8CE43" Ref="R17"  Part="1" 
+F 0 "R17" H 15175 2959 59  0000 L BNN
+F 1 "1k" H 15175 2770 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R1206" H 15325 2900 50  0001 C CNN
+F 3 "" H 15325 2900 50  0001 C CNN
+	1    15325 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:MC34063AD IC1
+U 1 1 06F92037
+P 12925 2100
+AR Path="/06F92037" Ref="IC1"  Part="1" 
+AR Path="/603A61FC/06F92037" Ref="IC1"  Part="1" 
+F 0 "IC1" H 12625 2525 59  0000 L BNN
+F 1 "MC34063AD" H 12625 1600 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:SO08" H 12925 2100 50  0001 C CNN
+F 3 "" H 12925 2100 50  0001 C CNN
+	1    12925 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:CPOL-EUE5-8.5 C4
+U 1 1 47C5F5C5
+P 11925 2400
+AR Path="/47C5F5C5" Ref="C4"  Part="1" 
+AR Path="/603A61FC/47C5F5C5" Ref="C4"  Part="1" 
+F 0 "C4" H 11970 2419 59  0000 L BNN
+F 1 "100µF RAD FC 100/35" V 11806 1445 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:E5-8,5" H 11925 2400 50  0001 C CNN
+F 3 "" H 11925 2400 50  0001 C CNN
+	1    11925 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R1206 R18
+U 1 1 92FFA298
+P 12225 2000
+AR Path="/92FFA298" Ref="R18"  Part="1" 
+AR Path="/603A61FC/92FFA298" Ref="R18"  Part="1" 
+F 0 "R18" H 12075 2059 59  0000 L BNN
+F 1 "0,22" H 12075 1870 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R1206" H 12225 2000 50  0001 C CNN
+F 3 "" H 12225 2000 50  0001 C CNN
+	1    12225 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC1206 C8
+U 1 1 E021D986
+P 13825 2400
+AR Path="/E021D986" Ref="C8"  Part="1" 
+AR Path="/603A61FC/E021D986" Ref="C8"  Part="1" 
+F 0 "C8" H 13885 2415 59  0000 L BNN
+F 1 "NPO-G1206 470pF" V 13710 1660 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C1206" H 13825 2400 50  0001 C CNN
+F 3 "" H 13825 2400 50  0001 C CNN
+	1    13825 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:L-EUL-11P L2
+U 1 1 F2DBA695
+P 14525 2000
+AR Path="/F2DBA695" Ref="L2"  Part="1" 
+AR Path="/603A61FC/F2DBA695" Ref="L2"  Part="1" 
+F 0 "L2" V 14466 1850 59  0000 L BNN
+F 1 "L-11P 220µ" V 14655 1850 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:L-11P-220" H 14525 2000 50  0001 C CNN
+F 3 "" H 14525 2000 50  0001 C CNN
+	1    14525 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:CPOL-EUD_7343-31R C14
+U 1 1 C6F76B8E
+P 14825 2200
+AR Path="/C6F76B8E" Ref="C14"  Part="1" 
+AR Path="/603A61FC/C6F76B8E" Ref="C14"  Part="1" 
+F 0 "C14" H 14870 2219 59  0000 L BNN
+F 1 "100µF SMD TAN.100/6,3" V 14706 1145 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:D_7343-31R" H 14825 2200 50  0001 C CNN
+F 3 "" H 14825 2200 50  0001 C CNN
+	1    14825 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:L-EUL-07HCP L1
+U 1 1 E87CF4D8
+P 10525 2200
+AR Path="/E87CF4D8" Ref="L1"  Part="1" 
+AR Path="/603A61FC/E87CF4D8" Ref="L1"  Part="1" 
+F 0 "L1" V 10366 2050 59  0000 L BNN
+F 1 "L-07HCP 47µ" V 10455 2050 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:L-07HCP-47" H 10525 2200 50  0001 C CNN
+F 3 "" H 10525 2200 50  0001 C CNN
+	1    10525 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13700 7375 13700 7275
+Wire Wire Line
+	13200 6975 13200 7375
+Wire Wire Line
+	13200 7375 13700 7375
+Wire Wire Line
+	13700 7375 13700 7475
+Wire Wire Line
+	14400 7375 13700 7375
+Wire Wire Line
+	14400 7375 14400 7275
+Wire Wire Line
+	12800 6975 12800 7375
+Wire Wire Line
+	12800 7375 13200 7375
+Connection ~ 13700 7375
+Connection ~ 13200 7375
+Text GLabel 13700 7375 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 5075 10500 5175
+Text GLabel 10500 5075 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10600 7375 10600 7475
+Text GLabel 10600 7375 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	13500 5275 13400 5275
+Wire Wire Line
+	13400 5075 13400 4275
+Wire Wire Line
+	13400 5275 12900 5275
+Wire Wire Line
+	12900 5275 12900 5175
+Wire Wire Line
+	13500 5075 13400 5075
+Wire Wire Line
+	13400 5375 13400 5275
+Wire Wire Line
+	13400 5275 13400 5075
+Connection ~ 13400 5075
+Connection ~ 13400 5275
+Text GLabel 13500 5275 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	10500 9575 10500 9675
+Text GLabel 10500 9575 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	13300 9575 13300 9675
+Text GLabel 13300 9575 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6900 7475 6100 7475
+Text GLabel 6900 7475 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7500 8675 9000 8675
+Text GLabel 7500 8675 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6800 9575 6800 9675
+Text GLabel 6800 9575 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7600 9575 7700 9575
+Wire Wire Line
+	7700 9575 7700 9675
+Wire Wire Line
+	7800 9575 7700 9575
+Connection ~ 7700 9575
+Text GLabel 7600 9575 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	13700 6275 13700 6175
+Wire Wire Line
+	13700 6175 13200 6175
+Wire Wire Line
+	13200 6175 13200 6675
+Wire Wire Line
+	12800 6675 12800 6175
+Wire Wire Line
+	12800 6175 13200 6175
+Connection ~ 13200 6175
+Text GLabel 13700 6275 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	10500 4175 10500 4275
+Text GLabel 10500 4175 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	12900 4275 12900 4675
+Wire Wire Line
+	12900 4675 12900 4875
+Wire Wire Line
+	13500 4675 12900 4675
+Connection ~ 12900 4675
+Text GLabel 12900 4275 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	10600 6575 10600 6475
+Text GLabel 10600 6575 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	10500 8775 10500 8675
+Text GLabel 10500 8775 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	13300 8575 13300 8475
+Text GLabel 13300 8575 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	7600 7475 7600 7175
+Wire Wire Line
+	7600 7475 7500 7475
+Wire Wire Line
+	7500 8475 7600 8475
+Wire Wire Line
+	7600 8475 7600 7475
+Connection ~ 7600 7475
+Text GLabel 7600 7475 0    10   BiDi ~ 0
++5V
+Wire Wire Line
+	14400 6775 14700 6775
+Wire Wire Line
+	14400 6975 14400 6775
+Wire Wire Line
+	14200 6775 14400 6775
+Connection ~ 14400 6775
+Text GLabel 14700 6775 2    50   BiDi ~ 0
+BOOST
+Wire Wire Line
+	10500 4775 10600 4775
+Wire Wire Line
+	10500 4675 10500 4775
+Wire Wire Line
+	10500 4775 10100 4775
+Connection ~ 10500 4775
+Text Label 10100 4775 2    50   ~ 0
+OILPRESSURE
+Wire Wire Line
+	7500 7775 8400 7775
+Text Label 8400 7775 0    50   ~ 0
+OILPRESSURE
+Wire Wire Line
+	10600 7075 10800 7075
+Wire Wire Line
+	10600 7075 9900 7075
+Wire Wire Line
+	10600 7075 10600 6975
+Connection ~ 10600 7075
+Text Label 9900 7075 2    50   ~ 0
+OILTEMP
+Wire Wire Line
+	7500 7975 8400 7975
+Text Label 8400 7975 0    50   ~ 0
+OILTEMP
+Wire Wire Line
+	11200 4775 11000 4775
+Text GLabel 11200 4775 2    50   BiDi ~ 0
+OILPRESSURE_ADC
+Wire Wire Line
+	11400 7075 11200 7075
+Text GLabel 11400 7075 2    50   BiDi ~ 0
+OILTEMP_ADC
+Wire Wire Line
+	13500 4875 13200 4875
+Wire Wire Line
+	13200 4875 13200 4275
+Wire Wire Line
+	14800 4875 15200 4875
+Wire Wire Line
+	14800 4575 14800 4875
+Text GLabel 15200 4875 2    50   BiDi ~ 0
+MISO
+Wire Wire Line
+	14500 4675 15100 4675
+Text GLabel 15100 4675 2    50   BiDi ~ 0
+SPICLOCK
+Wire Wire Line
+	6200 7875 6900 7875
+Text GLabel 6200 7875 0    50   BiDi ~ 0
+SPICLOCK
+Wire Wire Line
+	14500 5075 15000 5075
+Text GLabel 15000 5075 2    50   BiDi ~ 0
+MAXENABLE
+Wire Wire Line
+	10500 9275 10700 9275
+Wire Wire Line
+	10500 9275 10100 9275
+Wire Wire Line
+	10500 9275 10500 9175
+Connection ~ 10500 9275
+Text Label 10100 9275 2    50   ~ 0
+WATERTEMP
+Wire Wire Line
+	7500 7575 8400 7575
+Text Label 8400 7575 0    50   ~ 0
+WATERTEMP
+Wire Wire Line
+	11300 9275 11100 9275
+Text GLabel 11300 9275 2    50   BiDi ~ 0
+WATERTEMP_ADC
+Wire Wire Line
+	13300 9175 13300 9075
+Wire Wire Line
+	13300 9075 13300 8975
+Wire Wire Line
+	13500 9075 13300 9075
+Wire Wire Line
+	13300 9075 13100 9075
+Connection ~ 13300 9075
+Text Label 13100 9075 2    50   ~ 0
+EXTENTION_IN
+Wire Wire Line
+	7500 7375 8400 7375
+Text Label 8400 7375 0    50   ~ 0
+EXTENTION_IN
+Wire Wire Line
+	14200 9075 13900 9075
+Text GLabel 14200 9075 2    50   BiDi ~ 0
+EXTENTION_IN_ADC
+Wire Wire Line
+	7800 8975 7500 8975
+Wire Wire Line
+	7800 9175 7800 8975
+Connection ~ 7800 8975
+Wire Wire Line
+	7800 8875 7700 8875
+Wire Wire Line
+	7700 8875 7500 8875
+Wire Wire Line
+	7700 9175 7700 8875
+Connection ~ 7700 8875
+Wire Wire Line
+	6200 8475 6300 8475
+Text GLabel 6200 8475 0    50   BiDi ~ 0
+RPM
+Wire Wire Line
+	8200 8875 8400 8875
+Text GLabel 8400 8875 2    50   BiDi ~ 0
+SPEED
+Wire Wire Line
+	8400 8975 8200 8975
+Text GLabel 8400 8975 2    50   BiDi ~ 0
+LIGHT
+Wire Wire Line
+	8400 8375 7500 8375
+Text GLabel 8400 8375 2    50   BiDi ~ 0
+RXD
+Wire Wire Line
+	8400 8575 7500 8575
+Text GLabel 8400 8575 2    50   BiDi ~ 0
+TXD
+Wire Wire Line
+	6200 8075 6900 8075
+Text GLabel 6200 8075 0    50   BiDi ~ 0
+MOSI
+Wire Wire Line
+	8400 9075 7500 9075
+Text GLabel 8400 9075 2    50   BiDi ~ 0
+BUTTON
+Wire Wire Line
+	6200 8275 6900 8275
+Text GLabel 6200 8275 0    50   BiDi ~ 0
+LCD_LIGHT
+Wire Wire Line
+	6200 8675 6900 8675
+Text GLabel 6200 8675 0    50   BiDi ~ 0
+LED
+Wire Wire Line
+	6200 8875 6900 8875
+Text GLabel 6200 8875 0    50   BiDi ~ 0
+RS
+Wire Wire Line
+	6700 8475 6800 8475
+Wire Wire Line
+	6800 8475 6900 8475
+Wire Wire Line
+	6800 9175 6800 8475
+Connection ~ 6800 8475
+Wire Wire Line
+	6900 7675 6200 7675
+Text GLabel 6200 7675 0    56   BiDi ~ 0
+KLEMME30
+Wire Wire Line
+	7500 8775 7600 8775
+Wire Wire Line
+	7600 8775 7800 8775
+Wire Wire Line
+	7600 8775 7600 9175
+Connection ~ 7600 8775
+Wire Wire Line
+	8200 8775 8400 8775
+Text GLabel 8400 8775 2    50   BiDi ~ 0
+INT0
+Wire Wire Line
+	7500 8075 7800 8075
+Wire Wire Line
+	7500 8275 7800 8275
+Wire Wire Line
+	8200 8075 8400 8075
+Text GLabel 8400 8075 2    50   BiDi ~ 0
+ADC4
+Wire Wire Line
+	8200 8275 8400 8275
+Text GLabel 8400 8275 2    50   BiDi ~ 0
+ADC5
+Wire Wire Line
+	14700 4575 14700 4875
+Wire Wire Line
+	14500 4875 14700 4875
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V3
+U 1 1 324D53EC
+P 10500 4075
+AR Path="/324D53EC" Ref="#V3"  Part="1" 
+AR Path="/603A6374/324D53EC" Ref="#V03"  Part="1" 
+F 0 "#V3" H 10500 4075 50  0001 C CNN
+F 1 "+5V" H 10425 4200 59  0000 L BNN
+F 2 "" H 10500 4075 50  0001 C CNN
+F 3 "" H 10500 4075 50  0001 C CNN
+	1    10500 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:MPX4250A S1
+U 1 1 1E21AEEC
+P 13700 6775
+AR Path="/1E21AEEC" Ref="S1"  Part="1" 
+AR Path="/603A6374/1E21AEEC" Ref="S1"  Part="1" 
+F 0 "S1" H 13800 6375 42  0000 L BNN
+F 1 "MPX4250GP" H 13800 6275 42  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:MPX4250" H 13700 6775 50  0001 C CNN
+F 3 "" H 13700 6775 50  0001 C CNN
+	1    13700 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_0207_10 R8
+U 1 1 D4B64AA6
+P 10500 4475
+AR Path="/D4B64AA6" Ref="R8"  Part="1" 
+AR Path="/603A6374/D4B64AA6" Ref="R8"  Part="1" 
+F 0 "R8" H 10350 4534 59  0000 L BNN
+F 1 "100R" H 10350 4345 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:0207_10" H 10500 4475 50  0001 C CNN
+F 3 "" H 10500 4475 50  0001 C CNN
+	1    10500 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V1
+U 1 1 D47A89D4
+P 13200 6075
+AR Path="/D47A89D4" Ref="#V1"  Part="1" 
+AR Path="/603A6374/D47A89D4" Ref="#V01"  Part="1" 
+F 0 "#V1" H 13200 6075 50  0001 C CNN
+F 1 "+5V" H 13125 6200 59  0000 L BNN
+F 2 "" H 13200 6075 50  0001 C CNN
+F 3 "" H 13200 6075 50  0001 C CNN
+	1    13200 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC1206K C7
+U 1 1 B9E0DE35
+P 13200 6875
+AR Path="/B9E0DE35" Ref="C7"  Part="1" 
+AR Path="/603A6374/B9E0DE35" Ref="C7"  Part="1" 
+F 0 "C7" H 13260 6890 59  0000 L BNN
+F 1 "100n" H 13260 6690 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C1206K" H 13200 6875 50  0001 C CNN
+F 3 "" H 13200 6875 50  0001 C CNN
+	1    13200 6875
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND6
+U 1 1 A07C0193
+P 13700 7575
+AR Path="/A07C0193" Ref="#GND6"  Part="1" 
+AR Path="/603A6374/A07C0193" Ref="#GND06"  Part="1" 
+F 0 "#GND6" H 13700 7575 50  0001 C CNN
+F 1 "GND" H 13600 7475 59  0000 L BNN
+F 2 "" H 13700 7575 50  0001 C CNN
+F 3 "" H 13700 7575 50  0001 C CNN
+	1    13700 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R10
+U 1 1 AA2188A9
+P 10800 4775
+AR Path="/AA2188A9" Ref="R10"  Part="1" 
+AR Path="/603A6374/AA2188A9" Ref="R10"  Part="1" 
+F 0 "R10" H 10650 4834 59  0000 L BNN
+F 1 "15k" H 10650 4645 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 10800 4775 50  0001 C CNN
+F 3 "" H 10800 4775 50  0001 C CNN
+	1    10800 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805K C16
+U 1 1 FD15B919
+P 10500 4975
+AR Path="/FD15B919" Ref="C16"  Part="1" 
+AR Path="/603A6374/FD15B919" Ref="C16"  Part="1" 
+F 0 "C16" H 10560 4990 59  0000 L BNN
+F 1 "100nF" H 10560 4790 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805K" H 10500 4975 50  0001 C CNN
+F 3 "" H 10500 4975 50  0001 C CNN
+	1    10500 4975
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND8
+U 1 1 DF24F9E8
+P 10500 5275
+AR Path="/DF24F9E8" Ref="#GND8"  Part="1" 
+AR Path="/603A6374/DF24F9E8" Ref="#GND08"  Part="1" 
+F 0 "#GND8" H 10500 5275 50  0001 C CNN
+F 1 "GND" H 10400 5175 59  0000 L BNN
+F 2 "" H 10500 5275 50  0001 C CNN
+F 3 "" H 10500 5275 50  0001 C CNN
+	1    10500 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V7
+U 1 1 1F332E1D
+P 10600 6375
+AR Path="/1F332E1D" Ref="#V7"  Part="1" 
+AR Path="/603A6374/1F332E1D" Ref="#V07"  Part="1" 
+F 0 "#V7" H 10600 6375 50  0001 C CNN
+F 1 "+5V" H 10525 6500 59  0000 L BNN
+F 2 "" H 10600 6375 50  0001 C CNN
+F 3 "" H 10600 6375 50  0001 C CNN
+	1    10600 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R11
+U 1 1 1C03C8CA
+P 11000 7075
+AR Path="/1C03C8CA" Ref="R11"  Part="1" 
+AR Path="/603A6374/1C03C8CA" Ref="R11"  Part="1" 
+F 0 "R11" H 10850 7134 59  0000 L BNN
+F 1 "15k" H 10850 6945 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 11000 7075 50  0001 C CNN
+F 3 "" H 11000 7075 50  0001 C CNN
+	1    11000 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805K C17
+U 1 1 27205FC7
+P 10600 7275
+AR Path="/27205FC7" Ref="C17"  Part="1" 
+AR Path="/603A6374/27205FC7" Ref="C17"  Part="1" 
+F 0 "C17" H 10660 7290 59  0000 L BNN
+F 1 "100nF" H 10660 7090 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805K" H 10600 7275 50  0001 C CNN
+F 3 "" H 10600 7275 50  0001 C CNN
+	1    10600 7275
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND10
+U 1 1 845C69E3
+P 10600 7575
+AR Path="/845C69E3" Ref="#GND10"  Part="1" 
+AR Path="/603A6374/845C69E3" Ref="#GND010"  Part="1" 
+F 0 "#GND10" H 10600 7575 50  0001 C CNN
+F 1 "GND" H 10500 7475 59  0000 L BNN
+F 2 "" H 10600 7575 50  0001 C CNN
+F 3 "" H 10600 7575 50  0001 C CNN
+	1    10600 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:MAX6675ISA IC3
+U 1 1 5ED25CA7
+P 14000 4975
+AR Path="/5ED25CA7" Ref="IC3"  Part="1" 
+AR Path="/603A6374/5ED25CA7" Ref="IC3"  Part="1" 
+F 0 "IC3" H 13700 5375 59  0000 L BNN
+F 1 "MAX6675ISA" H 13700 4475 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:SO08" H 14000 4975 50  0001 C CNN
+F 3 "" H 14000 4975 50  0001 C CNN
+	1    14000 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805 C10
+U 1 1 BF98E6C5
+P 12900 4975
+AR Path="/BF98E6C5" Ref="C10"  Part="1" 
+AR Path="/603A6374/BF98E6C5" Ref="C10"  Part="1" 
+F 0 "C10" H 12960 4990 59  0000 L BNN
+F 1 "100n" H 12960 4790 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805" H 12900 4975 50  0001 C CNN
+F 3 "" H 12900 4975 50  0001 C CNN
+	1    12900 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V15
+U 1 1 9362C0C3
+P 12900 4175
+AR Path="/9362C0C3" Ref="#V15"  Part="1" 
+AR Path="/603A6374/9362C0C3" Ref="#V015"  Part="1" 
+F 0 "#V15" H 12900 4175 50  0001 C CNN
+F 1 "+5V" H 12825 4300 59  0000 L BNN
+F 2 "" H 12900 4175 50  0001 C CNN
+F 3 "" H 12900 4175 50  0001 C CNN
+	1    12900 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND15
+U 1 1 257B06B4
+P 13400 5475
+AR Path="/257B06B4" Ref="#GND15"  Part="1" 
+AR Path="/603A6374/257B06B4" Ref="#GND015"  Part="1" 
+F 0 "#GND15" H 13400 5475 50  0001 C CNN
+F 1 "GND" H 13300 5375 59  0000 L BNN
+F 2 "" H 13400 5475 50  0001 C CNN
+F 3 "" H 13400 5475 50  0001 C CNN
+	1    13400 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:AK300_2 X3
+U 1 1 4123AC4C
+P 13400 4075
+AR Path="/4123AC4C" Ref="X3"  Part="1" 
+AR Path="/603A6374/4123AC4C" Ref="X3"  Part="1" 
+F 0 "X3" H 13350 4110 59  0000 R TNN
+F 1 "EGT" H 13250 3930 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:AK300_2" H 13400 4075 50  0001 C CNN
+F 3 "" H 13400 4075 50  0001 C CNN
+	1    13400 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:AK300_2 X3
+U 2 1 4123AC40
+P 13200 4075
+AR Path="/4123AC40" Ref="X3"  Part="2" 
+AR Path="/603A6374/4123AC40" Ref="X3"  Part="2" 
+F 0 "X3" H 13150 4110 59  0000 R TNN
+F 1 "EGT" H 13050 3930 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:AK300_2" H 13200 4075 50  0001 C CNN
+F 3 "" H 13200 4075 50  0001 C CNN
+	2    13200 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC1206K C9
+U 1 1 1C3CDDCE
+P 14400 7075
+AR Path="/1C3CDDCE" Ref="C9"  Part="1" 
+AR Path="/603A6374/1C3CDDCE" Ref="C9"  Part="1" 
+F 0 "C9" H 14460 7090 59  0000 L BNN
+F 1 "470p" H 14460 6890 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C1206K" H 14400 7075 50  0001 C CNN
+F 3 "" H 14400 7075 50  0001 C CNN
+	1    14400 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V8
+U 1 1 5D3BD47E
+P 10500 8575
+AR Path="/5D3BD47E" Ref="#V8"  Part="1" 
+AR Path="/603A6374/5D3BD47E" Ref="#V08"  Part="1" 
+F 0 "#V8" H 10500 8575 50  0001 C CNN
+F 1 "+5V" H 10425 8700 59  0000 L BNN
+F 2 "" H 10500 8575 50  0001 C CNN
+F 3 "" H 10500 8575 50  0001 C CNN
+	1    10500 8575
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R5
+U 1 1 A7431C14
+P 10900 9275
+AR Path="/A7431C14" Ref="R5"  Part="1" 
+AR Path="/603A6374/A7431C14" Ref="R5"  Part="1" 
+F 0 "R5" H 10750 9334 59  0000 L BNN
+F 1 "15k" H 10750 9145 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 10900 9275 50  0001 C CNN
+F 3 "" H 10900 9275 50  0001 C CNN
+	1    10900 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:C-EUC0805K C18
+U 1 1 4DA42C9A
+P 10500 9475
+AR Path="/4DA42C9A" Ref="C18"  Part="1" 
+AR Path="/603A6374/4DA42C9A" Ref="C18"  Part="1" 
+F 0 "C18" H 10560 9490 59  0000 L BNN
+F 1 "100nF" H 10560 9290 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:C0805K" H 10500 9475 50  0001 C CNN
+F 3 "" H 10500 9475 50  0001 C CNN
+	1    10500 9475
+	-1   0    0    1   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND5
+U 1 1 EF27308A
+P 10500 9775
+AR Path="/EF27308A" Ref="#GND5"  Part="1" 
+AR Path="/603A6374/EF27308A" Ref="#GND05"  Part="1" 
+F 0 "#GND5" H 10500 9775 50  0001 C CNN
+F 1 "GND" H 10400 9675 59  0000 L BNN
+F 2 "" H 10500 9775 50  0001 C CNN
+F 3 "" H 10500 9775 50  0001 C CNN
+	1    10500 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:CPOL-EUA_3216-18W C5
+U 1 1 C476E782
+P 12800 6775
+AR Path="/C476E782" Ref="C5"  Part="1" 
+AR Path="/603A6374/C476E782" Ref="C5"  Part="1" 
+F 0 "C5" H 12845 6794 59  0000 L BNN
+F 1 "1µF SMD TAN.0,1/35" V 13019 7130 59  0000 R TNN
+F 2 "BOG_2_0_switcher_ds:A_3216-18W" H 12800 6775 50  0001 C CNN
+F 3 "" H 12800 6775 50  0001 C CNN
+	1    12800 6775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R19
+U 1 1 C973327D
+P 13700 9075
+AR Path="/C973327D" Ref="R19"  Part="1" 
+AR Path="/603A6374/C973327D" Ref="R19"  Part="1" 
+F 0 "R19" H 13470 9084 59  0000 L BNN
+F 1 "15k" H 13820 9085 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 13700 9075 50  0001 C CNN
+F 3 "" H 13700 9075 50  0001 C CNN
+	1    13700 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R12
+U 1 1 AEAAF9E2
+P 13300 8775
+AR Path="/AEAAF9E2" Ref="R12"  Part="1" 
+AR Path="/603A6374/AEAAF9E2" Ref="R12"  Part="1" 
+F 0 "R12" H 13070 8784 59  0000 L BNN
+F 1 "15k" H 13420 8785 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 13300 8775 50  0001 C CNN
+F 3 "" H 13300 8775 50  0001 C CNN
+	1    13300 8775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R20
+U 1 1 05C90C30
+P 13300 9375
+AR Path="/05C90C30" Ref="R20"  Part="1" 
+AR Path="/603A6374/05C90C30" Ref="R20"  Part="1" 
+F 0 "R20" H 13070 9384 59  0000 L BNN
+F 1 "15k" H 13420 9385 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 13300 9375 50  0001 C CNN
+F 3 "" H 13300 9375 50  0001 C CNN
+	1    13300 9375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND11
+U 1 1 19DA8D48
+P 13300 9775
+AR Path="/19DA8D48" Ref="#GND11"  Part="1" 
+AR Path="/603A6374/19DA8D48" Ref="#GND011"  Part="1" 
+F 0 "#GND11" H 13300 9775 50  0001 C CNN
+F 1 "GND" H 13200 9675 59  0000 L BNN
+F 2 "" H 13300 9775 50  0001 C CNN
+F 3 "" H 13300 9775 50  0001 C CNN
+	1    13300 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V13
+U 1 1 176414C0
+P 13300 8375
+AR Path="/176414C0" Ref="#V13"  Part="1" 
+AR Path="/603A6374/176414C0" Ref="#V013"  Part="1" 
+F 0 "#V13" H 13300 8375 50  0001 C CNN
+F 1 "+5V" H 13225 8500 59  0000 L BNN
+F 2 "" H 13300 8375 50  0001 C CNN
+F 3 "" H 13300 8375 50  0001 C CNN
+	1    13300 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R4
+U 1 1 38FBF58C
+P 8000 8975
+AR Path="/38FBF58C" Ref="R4"  Part="1" 
+AR Path="/603A6374/38FBF58C" Ref="R4"  Part="1" 
+F 0 "R4" H 7770 8984 59  0000 L BNN
+F 1 "15k" H 8120 8985 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8000 8975 50  0001 C CNN
+F 3 "" H 8000 8975 50  0001 C CNN
+	1    8000 8975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R1
+U 1 1 199D030B
+P 6500 8475
+AR Path="/199D030B" Ref="R1"  Part="1" 
+AR Path="/603A6374/199D030B" Ref="R1"  Part="1" 
+F 0 "R1" H 6270 8484 59  0000 L BNN
+F 1 "15k" H 6620 8485 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 6500 8475 50  0001 C CNN
+F 3 "" H 6500 8475 50  0001 C CNN
+	1    6500 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R6
+U 1 1 36C01E49
+P 8000 8875
+AR Path="/36C01E49" Ref="R6"  Part="1" 
+AR Path="/603A6374/36C01E49" Ref="R6"  Part="1" 
+F 0 "R6" H 7770 8884 59  0000 L BNN
+F 1 "15k" H 8120 8885 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8000 8875 50  0001 C CNN
+F 3 "" H 8000 8875 50  0001 C CNN
+	1    8000 8875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:+5V #V4
+U 1 1 7BDCAF96
+P 7600 7075
+AR Path="/7BDCAF96" Ref="#V4"  Part="1" 
+AR Path="/603A6374/7BDCAF96" Ref="#V04"  Part="1" 
+F 0 "#V4" H 7600 7075 50  0001 C CNN
+F 1 "+5V" H 7525 7200 59  0000 L BNN
+F 2 "" H 7600 7075 50  0001 C CNN
+F 3 "" H 7600 7075 50  0001 C CNN
+	1    7600 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND3
+U 1 1 7679BDCC
+P 6000 7475
+AR Path="/7679BDCC" Ref="#GND3"  Part="1" 
+AR Path="/603A6374/7679BDCC" Ref="#GND03"  Part="1" 
+F 0 "#GND3" H 6000 7475 50  0001 C CNN
+F 1 "GND" H 5900 7375 59  0000 L BNN
+F 2 "" H 6000 7475 50  0001 C CNN
+F 3 "" H 6000 7475 50  0001 C CNN
+	1    6000 7475
+	0    1    1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:HM26H X1
+U 1 1 753049C4
+P 7200 8075
+AR Path="/753049C4" Ref="X1"  Part="1" 
+AR Path="/603A6374/753049C4" Ref="X1"  Part="1" 
+F 0 "X1" H 7050 8925 59  0000 L BNN
+F 1 "HM26H" H 7025 6850 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:HDM26H" H 7200 8075 50  0001 C CNN
+F 3 "" H 7200 8075 50  0001 C CNN
+	1    7200 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND14
+U 1 1 109F320A
+P 9100 8675
+AR Path="/109F320A" Ref="#GND14"  Part="1" 
+AR Path="/603A6374/109F320A" Ref="#GND014"  Part="1" 
+F 0 "#GND14" H 9100 8675 50  0001 C CNN
+F 1 "GND" H 9000 8575 59  0000 L BNN
+F 2 "" H 9100 8675 50  0001 C CNN
+F 3 "" H 9100 8675 50  0001 C CNN
+	1    9100 8675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R21
+U 1 1 3DF3CBB2
+P 8000 8775
+AR Path="/3DF3CBB2" Ref="R21"  Part="1" 
+AR Path="/603A6374/3DF3CBB2" Ref="R21"  Part="1" 
+F 0 "R21" H 7770 8784 59  0000 L BNN
+F 1 "15k" H 8120 8785 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8000 8775 50  0001 C CNN
+F 3 "" H 8000 8775 50  0001 C CNN
+	1    8000 8775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R22
+U 1 1 E907CAF4
+P 8000 8075
+AR Path="/E907CAF4" Ref="R22"  Part="1" 
+AR Path="/603A6374/E907CAF4" Ref="R22"  Part="1" 
+F 0 "R22" H 7770 8084 59  0000 L BNN
+F 1 "15k" H 8120 8085 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8000 8075 50  0001 C CNN
+F 3 "" H 8000 8075 50  0001 C CNN
+	1    8000 8075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R23
+U 1 1 B8026F1B
+P 8000 8275
+AR Path="/B8026F1B" Ref="R23"  Part="1" 
+AR Path="/603A6374/B8026F1B" Ref="R23"  Part="1" 
+F 0 "R23" H 7770 8284 59  0000 L BNN
+F 1 "15k" H 8120 8285 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 8000 8275 50  0001 C CNN
+F 3 "" H 8000 8275 50  0001 C CNN
+	1    8000 8275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_0207_10 R24
+U 1 1 DDC4E15F
+P 10600 6775
+AR Path="/DDC4E15F" Ref="R24"  Part="1" 
+AR Path="/603A6374/DDC4E15F" Ref="R24"  Part="1" 
+F 0 "R24" H 10450 6834 59  0000 L BNN
+F 1 "33R" H 10450 6645 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:0207_10" H 10600 6775 50  0001 C CNN
+F 3 "" H 10600 6775 50  0001 C CNN
+	1    10600 6775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_0207_10 R7
+U 1 1 1FC788EE
+P 10500 8975
+AR Path="/1FC788EE" Ref="R7"  Part="1" 
+AR Path="/603A6374/1FC788EE" Ref="R7"  Part="1" 
+F 0 "R7" H 10350 9034 59  0000 L BNN
+F 1 "33R" H 10350 8845 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:0207_10" H 10500 8975 50  0001 C CNN
+F 3 "" H 10500 8975 50  0001 C CNN
+	1    10500 8975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:JP1E JP2
+U 1 1 FA93C76E
+P 14700 4475
+AR Path="/FA93C76E" Ref="JP2"  Part="1" 
+AR Path="/603A6374/FA93C76E" Ref="JP2"  Part="1" 
+F 0 "JP2" V 14650 4475 59  0000 L BNN
+F 1 "JP1E" V 14925 4475 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:JP1" H 14700 4475 50  0001 C CNN
+F 3 "" H 14700 4475 50  0001 C CNN
+	1    14700 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R3
+U 1 1 8625F655
+P 7600 9375
+AR Path="/8625F655" Ref="R3"  Part="1" 
+AR Path="/603A6374/8625F655" Ref="R3"  Part="1" 
+F 0 "R3" H 7370 9384 59  0000 L BNN
+F 1 "15k" H 7720 9385 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 7600 9375 50  0001 C CNN
+F 3 "" H 7600 9375 50  0001 C CNN
+	1    7600 9375
+	0    -1   1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R13
+U 1 1 7EC4838E
+P 7700 9375
+AR Path="/7EC4838E" Ref="R13"  Part="1" 
+AR Path="/603A6374/7EC4838E" Ref="R13"  Part="1" 
+F 0 "R13" H 7470 9384 59  0000 L BNN
+F 1 "15k" H 7820 9385 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 7700 9375 50  0001 C CNN
+F 3 "" H 7700 9375 50  0001 C CNN
+	1    7700 9375
+	0    -1   1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R16
+U 1 1 75827EBC
+P 6800 9375
+AR Path="/75827EBC" Ref="R16"  Part="1" 
+AR Path="/603A6374/75827EBC" Ref="R16"  Part="1" 
+F 0 "R16" H 6570 9384 59  0000 L BNN
+F 1 "15k" H 6920 9385 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 6800 9375 50  0001 C CNN
+F 3 "" H 6800 9375 50  0001 C CNN
+	1    6800 9375
+	0    -1   1    0   
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND12
+U 1 1 A5F18D96
+P 7700 9775
+AR Path="/A5F18D96" Ref="#GND12"  Part="1" 
+AR Path="/603A6374/A5F18D96" Ref="#GND012"  Part="1" 
+F 0 "#GND12" H 7700 9775 50  0001 C CNN
+F 1 "GND" H 7600 9675 59  0000 L BNN
+F 2 "" H 7700 9775 50  0001 C CNN
+F 3 "" H 7700 9775 50  0001 C CNN
+	1    7700 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND18
+U 1 1 E0081D19
+P 6800 9775
+AR Path="/E0081D19" Ref="#GND18"  Part="1" 
+AR Path="/603A6374/E0081D19" Ref="#GND018"  Part="1" 
+F 0 "#GND18" H 6800 9775 50  0001 C CNN
+F 1 "GND" H 6700 9675 59  0000 L BNN
+F 2 "" H 6800 9775 50  0001 C CNN
+F 3 "" H 6800 9775 50  0001 C CNN
+	1    6800 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:R-EU_R0805 R25
+U 1 1 C851229D
+P 7800 9375
+AR Path="/C851229D" Ref="R25"  Part="1" 
+AR Path="/603A6374/C851229D" Ref="R25"  Part="1" 
+F 0 "R25" H 7570 9384 59  0000 L BNN
+F 1 "15k" H 7920 9385 59  0000 L BNN
+F 2 "BOG_2_0_switcher_ds:R0805" H 7800 9375 50  0001 C CNN
+F 3 "" H 7800 9375 50  0001 C CNN
+	1    7800 9375
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	12300 5675 15700 5675
+Wire Notes Line
+	15700 5675 15700 3675
+Wire Notes Line
+	15700 3675 12300 3675
+Wire Notes Line
+	12300 3675 12300 5675
+Wire Notes Line
+	12300 5775 12300 7875
+Wire Notes Line
+	12300 7875 15700 7875
+Wire Notes Line
+	15700 7875 15700 5775
+Wire Notes Line
+	15700 5775 12300 5775
+Wire Notes Line
+	12200 3675 12200 5675
+Wire Notes Line
+	12200 5675 9500 5675
+Wire Notes Line
+	9500 5675 9500 3675
+Wire Notes Line
+	9500 3675 12200 3675
+Wire Notes Line
+	12200 5775 12200 7875
+Wire Notes Line
+	12200 7875 9500 7875
+Wire Notes Line
+	9500 7875 9500 5775
+Wire Notes Line
+	9500 5775 12200 5775
+Wire Notes Line
+	12200 7975 12200 10075
+Wire Notes Line
+	12200 10075 9500 10075
+Wire Notes Line
+	9500 10075 9500 7975
+Wire Notes Line
+	9500 7975 12200 7975
+Wire Notes Line
+	12300 7975 15700 7975
+Wire Notes Line
+	12300 7975 12300 10075
+Wire Notes Line
+	15700 10075 12300 10075
+Wire Notes Line
+	15700 10075 15700 7975
+Wire Notes Line
+	5300 6375 9400 6375
+Wire Notes Line
+	9400 10075 5300 10075
+Wire Notes Line
+	9400 6375 9400 10075
+Wire Notes Line
+	5300 10075 5300 6375
+Text Notes 12500 5575 0    59   ~ 0
+Thermocouple
+Text Notes 12400 7775 0    59   ~ 0
+Boostpressure
+Text Notes 9600 5575 0    59   ~ 0
+Oilpressure
+Text Notes 9700 7775 0    59   ~ 0
+Oiltemperature
+Text Notes 9600 9975 0    59   ~ 0
+Watertemperature
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050A5B6
+P 10825 2950
+AR Path="/6050A5B6" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050A5B6" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 10825 2950 50  0001 C CNN
+F 1 "GND" H 10725 2850 59  0000 L BNN
+F 2 "" H 10825 2950 50  0001 C CNN
+F 3 "" H 10825 2950 50  0001 C CNN
+	1    10825 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050B19E
+P 11925 2950
+AR Path="/6050B19E" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050B19E" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 11925 2950 50  0001 C CNN
+F 1 "GND" H 11825 2850 59  0000 L BNN
+F 2 "" H 11925 2950 50  0001 C CNN
+F 3 "" H 11925 2950 50  0001 C CNN
+	1    11925 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11925 2850 11925 2600
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050B8A2
+P 13525 2950
+AR Path="/6050B8A2" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050B8A2" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 13525 2950 50  0001 C CNN
+F 1 "GND" H 13425 2850 59  0000 L BNN
+F 2 "" H 13525 2950 50  0001 C CNN
+F 3 "" H 13525 2950 50  0001 C CNN
+	1    13525 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050BE29
+P 13825 2950
+AR Path="/6050BE29" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050BE29" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 13825 2950 50  0001 C CNN
+F 1 "GND" H 13725 2850 59  0000 L BNN
+F 2 "" H 13825 2950 50  0001 C CNN
+F 3 "" H 13825 2950 50  0001 C CNN
+	1    13825 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050C278
+P 14125 2950
+AR Path="/6050C278" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050C278" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 14125 2950 50  0001 C CNN
+F 1 "GND" H 14025 2850 59  0000 L BNN
+F 2 "" H 14125 2950 50  0001 C CNN
+F 3 "" H 14125 2950 50  0001 C CNN
+	1    14125 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050C630
+P 14825 2950
+AR Path="/6050C630" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050C630" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 14825 2950 50  0001 C CNN
+F 1 "GND" H 14725 2850 59  0000 L BNN
+F 2 "" H 14825 2950 50  0001 C CNN
+F 3 "" H 14825 2950 50  0001 C CNN
+	1    14825 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOG_2_0_switcher_ds-eagle-import:GND #GND?
+U 1 1 6050CA84
+P 15325 3225
+AR Path="/6050CA84" Ref="#GND?"  Part="1" 
+AR Path="/603A61FC/6050CA84" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 15325 3225 50  0001 C CNN
+F 1 "GND" H 15225 3125 59  0000 L BNN
+F 2 "" H 15325 3225 50  0001 C CNN
+F 3 "" H 15325 3225 50  0001 C CNN
+	1    15325 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15325 3125 15325 3100
+Wire Notes Line
+	15700 3525 9225 3525
+Wire Notes Line
+	9225 3525 9225 1250
+Wire Notes Line
+	9225 1250 15700 1250
+Wire Notes Line
+	15700 1250 15700 3525
+Text Notes 15375 3500 0    59   ~ 0
+DC/DC
+$EndSCHEMATC
